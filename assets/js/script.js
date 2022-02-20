@@ -11,7 +11,7 @@ const popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 const enviarCorreo = document.getElementById('enviarCorreo');
 
 enviarCorreo.addEventListener('click', function(){
-  alert("El correo fue enviado correctamente...")
+  alert("El correo fue enviado correctamente")
 })
 
 const textoRojito = document.getElementById('ingredientes');
